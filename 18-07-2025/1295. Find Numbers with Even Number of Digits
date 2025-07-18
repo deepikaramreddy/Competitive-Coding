@@ -1,0 +1,13 @@
+class Solution {
+    public int findNumbers(int[] nums) {
+        int c=0;
+        for(int n:nums)
+        {
+            int ct=0;
+            String y=n+"";
+             ct=y.length();
+            if(ct%2==0) c++;
+        }
+        return c;
+    }
+}
